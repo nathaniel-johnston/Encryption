@@ -22,8 +22,8 @@ public ArrayList<String> translate(ArrayList list)
                 // this gets the letter of the key; the % is to loop back around if i > length of key - 1
                 int keyLetter = (int) key.charAt (i % keyLength);
 
-                // this tests if the character is within my ascii limit, I am not currently supporting more characters
-                // the 256 ascii characters
+                // this tests if the character is within my ascii limit, I am not currently supporting more
+                // characters than the 256 ascii characters
                 if (asciiVal >= 0 && asciiVal < TOTAL_POSSIBLE_CHARACTERS)
                 {
                     // this formula does the actual encrypting
